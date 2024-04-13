@@ -1,0 +1,78 @@
+/* Boards Block */
+.boards_wrapper {
+	background-color: #019f9f;
+	height: 500px;
+
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+}
+
+/* Board */
+.board {
+	background-color: #dcdcdc;
+	padding: 20px;
+	border-radius: 5px;
+	min-width: 300px;
+
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+/* Tasks Block */
+.tasks_wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+
+	height: auto;
+}
+
+/* Tasks */
+.task {
+	background-color: #f5f5f5;
+	border-radius: 5px;
+	padding: 20px 10px 10px 10px;
+
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+/* Addition information */
+.additional_info_block {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 15;
+
+	.additional_info {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		gap: 15px;
+
+		.info_checks, .info_attach, .info_comment {
+			display: flex;
+			flex-direction: row;
+			gap: 4px;
+		}
+	}
+}
+
+.additional_info {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+/* Scroll boards */
+div.board2,
+div.board4 {
+	height: 460px;
+
+	overflow-x: hidden;
+	overflow-y: auto;
+	scroll-behavior: smooth;
+}

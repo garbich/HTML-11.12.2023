@@ -1,0 +1,40 @@
+/* For all */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Light', sans-serif;
+}
+
+/* Header */
+header {
+	padding: 20px 40px;
+	color: white;
+	background-color: #008a8c;
+}
+
+/* Main */
+main {
+	background-color: #019f9f;
+	padding: 20px;
+	width: inherit;
+
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+
+/* Paragraphs */
+p {
+	white-space: wrap;
+	font-size: 18px;
+}
+
+/* Images */
+.additional_info_block img {
+	object-fit: cover;
+
+	height: 30px;
+}
+
+.additional_info img {
+	height: 15px;
+}

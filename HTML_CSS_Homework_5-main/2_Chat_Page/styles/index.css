@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Light', sans-serif;
+	background-color: #f5f5f5;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+
+	margin-top: 100px;
+}
+
+.chatting {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	width: max-content;
+}
+
+.anie_smith_message {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+	gap: 15px;
+}
+
+.jack_silverston_message {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 15px;
+}
+
+.sender {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 5px;
+
+	.sender_data {
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+	}
+}
+
+.anie_smith_message > .sender > .sender_data {
+	text-align: right;
+}
+
+/* Sender name */
+.sender_name {
+	font-weight: 500;
+	font-size: 16px;
+	letter-spacing: 0.6px;
+}
+
+/* Sending time */
+.sending_time {
+	color: #9a8f93;
+	font-weight: 400;
+}
+
+/* Message blocks */
+.anie_text_block {
+	background-color: #ffb6c1;
+	border-radius: 20px 20px 20px 0;
+	width: 390px;
+
+	p {
+		background-color: #ffb6c1;
+		line-height: 25px;
+		margin: 20px;
+	}
+}
+
+.jack_text_block {
+	background-color: #add9e6;
+	margin-left: 150px;
+	border-radius: 20px 20px 0 20px;
+	width: 390px;
+
+	p {
+		background-color: #add9e6;
+		line-height: 25px;
+		margin: 20px;
+	}
+}

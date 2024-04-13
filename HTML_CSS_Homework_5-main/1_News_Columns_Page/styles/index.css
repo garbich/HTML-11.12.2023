@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Light', sans-serif;
+}
+
+main {
+	background-color: #add9e6;
+	width: max-content;
+	height: max-content;
+	padding: 50px;
+}
+
+.boards {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 40px;
+	width: max-content;
+	height: max-content;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
